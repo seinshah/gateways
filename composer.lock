@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "70873adb53a3caff68ecf05368c700aa",
+    "content-hash": "53d3d622e58f9de68a98a8442ed2ea0d",
     "packages": [
         {
             "name": "deviservi/nusoap",
@@ -53,7 +53,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
         "deviservi/nusoap": 20
     },

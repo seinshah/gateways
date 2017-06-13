@@ -1,7 +1,6 @@
 {
     "name": "hos69shah/gateways",
     "description": "To use all Iranian gateways and maybe international gateways using one package",
-    "type": "composer-plugin",
     "require": {
         "php": ">=5.3.0",
         "deviservi/nusoap": "1.123"

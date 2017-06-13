@@ -1,3 +1,5 @@
+####[See Documentation With Better UX Here](https://hos69shah.github.io/gateways/)
+
 # Composer Plugin To Support Following Gateways  
 
 + Mellat (Behpardakht)
@@ -22,7 +24,9 @@ Then you must use my namespace to access classes simply:
 `use Hossein\Gateway as HG;`  
 
 
-## Mellat Documentation
+## Mellat Documentation  
+[See Live Usage Here](https://sattva.ir/plugin-test/sample/mellat.php)  
+
 When you done with above steps, you can simply use package to connect to Mellat gateway using your credential info supplied by Behpardakht.  
   
 #### Starting Payment  

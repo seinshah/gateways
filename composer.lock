@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "53d3d622e58f9de68a98a8442ed2ea0d",
+    "content-hash": "6d9044a5fd37aaafc642ed6d990617ab",
     "packages": [
         {
             "name": "deviservi/nusoap",
-            "version": "dev-master",
+            "version": "v1.123",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deviservi/nusoap.git",
-                "reference": "4df72b82b62a7cae6596f342565b4395e3bf6fa3"
+                "reference": "a20bc25085cdba65a5dc2b12d47c31e2fc8461b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deviservi/nusoap/zipball/4df72b82b62a7cae6596f342565b4395e3bf6fa3",
-                "reference": "4df72b82b62a7cae6596f342565b4395e3bf6fa3",
+                "url": "https://api.github.com/repos/deviservi/nusoap/zipball/a20bc25085cdba65a5dc2b12d47c31e2fc8461b2",
+                "reference": "a20bc25085cdba65a5dc2b12d47c31e2fc8461b2",
                 "shasum": ""
             },
             "require": {
@@ -48,15 +48,13 @@
                 "nusoap",
                 "soap"
             ],
-            "time": "2014-10-29 10:55:48"
+            "time": "2014-08-19T12:59:02+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "deviservi/nusoap": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -12,7 +12,6 @@ class Base
 
     public function __construct()
     {
-        require_once ('../vendor/autoload.php');
     }
 
     public function valid_url($url)

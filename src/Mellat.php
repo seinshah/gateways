@@ -194,9 +194,9 @@ class Mellat extends \Hossein\Gateway\Base
         $this->reference_id = (isset($responses[1]) && strlen($responses[1]) > 0) ? trim($responses[1]) : null;
 
         if($this->result_code !== 0)
-            throw new AllException('mellat_code_' . $code);
+            throw new AllException('mellat_code_' . $this->result_code);
 
-        $this->posting_reference_id();
+        return $this->posting_reference_id();
     }
 
     /**
@@ -314,7 +314,7 @@ class Mellat extends \Hossein\Gateway\Base
 
             default:
                 $this->mode = 'direct-immediate';
-                $this->posting_reference_id();
+                return $this->posting_reference_id();
                 break;
         }
     }
